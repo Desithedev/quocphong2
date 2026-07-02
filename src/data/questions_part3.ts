@@ -1,7 +1,7 @@
 export const PART3 = [
-  // Bài 6: An toàn thông tin mạng & An ninh không gian mạng (Câu 111 - 120)
+  // Bài 6: An toàn thông tin mạng & An ninh không gian mạng (Câu 1 - 10)
   {
-    id: 111,
+    id: 1,
     type: 'single-choice',
     question: 'Chọn đáp án đúng điền vào chỗ trống để hoàn thiện khái niệm sau:\n“An toàn thông tin mạng là sự .....(1)..... thông tin và các hệ thống thông tin tránh bị truy nhập, sử dụng, tiết lộ, gián đoạn, sửa đổi hoặc phá hoại trái phép nhằm bảo đảm tính nguyên vẹn, tính .....(2)..... và tính khả dụng của thông tin”',
     answer: 'b',
@@ -13,7 +13,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 112,
+    id: 2,
     type: 'single-choice',
     question: 'Theo Đồng chí thì đâu là 03 đặc điểm quan trọng nhất của an toàn thông tin?',
     answer: 'b',
@@ -25,7 +25,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 113,
+    id: 3,
     type: 'single-choice',
     question: 'Một hệ thống cho phép người dùng truy cập dữ liệu đúng quyền hạn nhưng dữ liệu đã bị sửa đổi trái phép trong quá trình truyền tải. Thuộc tính nào của an toàn thông tin bị xâm phạm chủ yếu?',
     answer: 'c',
@@ -37,7 +37,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 114,
+    id: 4,
     type: 'single-choice',
     question: 'Một cơ quan áp dụng nhiều biện pháp kỹ thuật để đảm bảo hệ thống hoạt động liên tục, hạn chế gián đoạn dịch vụ khi xảy ra sự cố. Mục tiêu được ưu tiên bảo vệ là:',
     answer: 'b',
@@ -49,7 +49,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 115,
+    id: 5,
     type: 'single-choice',
     question: 'Điểm khác biệt cơ bản giữa “phát hiện” và “ngăn chặn” trong công tác phòng, chống vi phạm pháp luật trên không gian mạng là:',
     answer: 'c',
@@ -61,19 +61,19 @@ export const PART3 = [
     ]
   },
   {
-    id: 116,
+    id: 6,
     type: 'single-choice',
     question: 'Vì sao các quốc gia phải tăng cường hợp tác quốc tế trong bảo đảm an toàn thông tin?',
     answer: 'c',
     options: [
       'Vì mọi cuộc tấn công mạng đều xuất phát từ chính phủ nước ngoài',
       'Vì thông tin chỉ được lưu trữ ở các trung tâm dữ liệu quốc tế',
-      'Vì các mối đe dọa có thể xuất phát từ nhiều quốc gia và tác động vượt ra ngoài phạm vi lãnh thổ một nước',
+      'Vì các mối đe dọa can xuất phát từ nhiều quốc gia và tác động vượt ra ngoài phạm vi lãnh thổ một nước',
       'Vì chỉ có các tổ chức quốc tế mới được quyền xử lý tội phạm mạng'
     ]
   },
   {
-    id: 117,
+    id: 7,
     type: 'single-choice',
     question: 'Một doanh nghiệp bị tin tặc mã hóa toàn bộ dữ liệu và yêu cầu trả tiền để khôi phục hệ thống. Tình huống này thể hiện rõ nhất nguy cơ:',
     answer: 'd',
@@ -85,7 +85,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 118,
+    id: 8,
     type: 'single-choice',
     question: 'Khi một người dùng vô tình chia sẻ thông tin chưa được kiểm chứng làm lan truyền tin thất thiệt trên mạng xã hội, nhận định nào phù hợp nhất?',
     answer: 'b',
@@ -97,7 +97,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 119,
+    id: 9,
     type: 'single-choice',
     question: 'Trong các hoạt động sau, hoạt động nào thể hiện rõ nhất vai trò chủ động của sinh viên trong bảo vệ an ninh mạng?',
     answer: 'c',
@@ -109,7 +109,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 120,
+    id: 10,
     type: 'single-choice',
     question: 'Một quốc gia đầu tư mạnh cho hạ tầng công nghệ thông tin, chính phủ điện tử và dịch vụ trực tuyến. Theo nội dung bài học, yêu cầu nào sẽ trở nên cấp thiết hơn?',
     answer: 'c',
@@ -121,9 +121,9 @@ export const PART3 = [
     ]
   },
 
-  // Bài 7: An ninh phi truyền thống (Câu 121 - 140)
+  // Bài 7: An ninh phi truyền thống (Câu 11 - 30)
   {
-    id: 121,
+    id: 11,
     type: 'single-choice',
     question: 'Đâu là hậu quả mà các mối đe dọa an ninh phi truyền thống tác động đến chính trị của một đất nước?\n1- Gây mất trật tự xã hội, làm nhân dân hoang mang mất niềm tin vào chế độ, ảnh hưởng trực tiếp đến sự quản lý, điều hành của Nhà nước;\n2- Thúc đẩy “tự diễn biến”, “tự chuyển hóa” trong nội bộ Đảng, chính quyền và Nhân dân;\n3- Thúc đẩy chiến lược “diễn biến hòa bình” biểu tình, bạo loạn, làm mất ổn định đất nước;\n4- Can thiệp quân sự từ bên ngoài nhằm thay đổi chế độ, thay đổi chính quyền nhân dân.',
     answer: 'd',
@@ -135,7 +135,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 122,
+    id: 12,
     type: 'single-choice',
     question: 'Sự tác động đến lĩnh vực kinh tế của các mối đe dọa an ninh phi truyền thống ở Việt Nam được thực hiện thông qua những nội dung nào?\n1- Hoạch định chính sách kinh tế;\n2- Tổ chức thực hiện hiệu quả của các hoạt động sản xuất;\n3- Tổ chức thực hiện hiệu quả của các hoạt động kinh doanh;\n4- Sự lãnh đạo của Đảng và vai trò điều hành, quản lý của Nhà nước.',
     answer: 'd',
@@ -147,7 +147,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 123,
+    id: 13,
     type: 'single-choice',
     question: 'Sự tác động đến lĩnh vực kinh tế của các mối đe dọa an ninh phi truyền thống ở Việt Nam được thực hiện thông qua những yếu tố nào?',
     answer: 'd',
@@ -159,7 +159,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 124,
+    id: 14,
     type: 'single-choice',
     question: 'Đâu không phải là hậu quả mà các mối đe dọa an ninh phi truyền thống tác động đến lĩnh vực văn hóa - xã hội của một đất nước?',
     answer: 'd',
@@ -171,7 +171,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 125,
+    id: 15,
     type: 'single-choice',
     question: 'Đâu không phải là phương án trả lời đúng khi nhận định về tác động của an ninh phi truyền thống đối với lĩnh vực văn hóa - xã hội?',
     answer: 'd',
@@ -183,7 +183,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 126,
+    id: 16,
     type: 'single-choice',
     question: 'Đâu là nguy cơ mất ổn định của đất nước được tạo ra bởi hậu quả mà các mối đe dọa an ninh phi truyền thống tác động đến lĩnh vực văn hóa - xã hội?',
     answer: 'd',
@@ -195,7 +195,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 127,
+    id: 17,
     type: 'single-choice',
     question: 'Đâu là phương án trả lời sai khi nhận định về tác động của an ninh phi truyền thống đối với lĩnh vực quốc phòng - an ninh?',
     answer: 'd',
@@ -207,7 +207,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 128,
+    id: 18,
     type: 'single-choice',
     question: 'Đâu là phương án trả lời đúng khi nhận định về tác động của an ninh phi truyền thống đối với lĩnh vực quốc phòng - an ninh?',
     answer: 'd',
@@ -219,7 +219,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 129,
+    id: 19,
     type: 'single-choice',
     question: 'Những nguy cơ từ vấn đề an ninh phi truyền thống trong khu vực và trên thế giới tác động đến nhiệm vụ bảo vệ an ninh quốc gia của Việt Nam hiện nay là gì?\n1- Các loại tội phạm về an ninh mạng, ma túy...;\n2- Suy thoái môi trường và biến đổi khí hậu;\n3- Các loại tội phạm trên lĩnh vực thương mại, đầu tư...;\n4- Buôn bán phụ nữ và trẻ em, tội rửa tiền....',
     answer: 'd',
@@ -231,7 +231,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 130,
+    id: 20,
     type: 'single-choice',
     question: 'Đâu là phương án trả lời đúng khi nhận định về tác động của an ninh phi truyền thống đối với lĩnh vực đối ngoại?',
     answer: 'c',
@@ -243,7 +243,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 131,
+    id: 21,
     type: 'single-choice',
     question: 'Đâu là quan điểm thể hiện cách thức giải quyết các vấn đề an ninh phi truyền thống của Đảng và Nhà nước ta hiện nay?',
     answer: 'a',
@@ -255,7 +255,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 132,
+    id: 22,
     type: 'single-choice',
     question: 'Đâu là một trong những giải pháp cơ bản phòng ngừa, ứng phó với các mối đe dọa từ các vấn đề ANPTT ở Việt Nam hiện nay?',
     answer: 'a',
@@ -267,7 +267,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 133,
+    id: 23,
     type: 'single-choice',
     question: 'Đâu là một trong những nguồn gốc nảy sinh các vấn đề an ninh phi truyền thống?',
     answer: 'c',
@@ -279,7 +279,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 134,
+    id: 24,
     type: 'single-choice',
     question: 'Đâu là nhận định đúng khi nói về đối tượng tác động của những vấn đề an ninh phi truyền thống?',
     answer: 'd',
@@ -291,7 +291,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 135,
+    id: 25,
     type: 'single-choice',
     question: 'So với an ninh truyền thống thì an ninh phi truyền thống có đặc điểm nổi bật gì?\n1- Các nhân tố an ninh phi truyền thống là những vấn đề xuyên quốc gia mang tính khu vực và toàn cầu;\n2- An ninh phi truyền thống do các nhân tố phi quân sự gây ra, trực tiếp ảnh hưởng đến sự phát triển, ổn định chính trị - xã hội;\n3- Mỗi quốc gia dù lớn hay nhỏ, mạnh hay yếu đều có thể bị đe dọa bởi các mối đe dọa an ninh phi truyền thống;\n4- Những vấn đề an ninh truyền thống khi mất kiểm soát sẽ gây ra những thiệt hại nghiêm trọng, những khủng hoảng trầm trọng có thể sẽ chuyển hóa khó lường;',
     answer: 'a',
@@ -303,7 +303,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 136,
+    id: 26,
     type: 'single-choice',
     question: 'Đâu là những mối nguy của an ninh phi truyền thống tác động tới các quốc gia trên thế giới hiện nay?\n1- Mối đe dọa của chủ nghĩa khủng bố, chủ nghĩa dân tộc, chủ nghĩa tôn giáo cực đoan;\n2- Mối đe dọa bắt người từ việc phổ biến vũ khí giết người hàng loạt, chạy đua vũ trang;\n3- Mối đe dọa từ sự bao vây, cấm vận, sức ép kinh tế, chính trị bên ngoài;\n4- Mối đe dọa từ việc chạy đua vũ trang giữa các cường quốc quân sự trên thế giới.',
     answer: 'b',
@@ -315,7 +315,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 137,
+    id: 27,
     type: 'single-choice',
     question: 'Đâu không phải là mối nguy của an ninh phi truyền thống tác động tới các quốc gia trên thế giới hiện nay?',
     answer: 'b',
@@ -327,7 +327,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 138,
+    id: 28,
     type: 'single-choice',
     question: 'Một trong những mối nguy của an ninh phi truyền thống tác động tới các quốc gia trên thế giới?',
     answer: 'a',
@@ -339,7 +339,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 139,
+    id: 29,
     type: 'single-choice',
     question: 'Các vấn đề về an ninh phi truyền thống ở Việt Nam có thể khái quát bởi những phương diện chủ yếu nào?',
     answer: 'b',
@@ -351,7 +351,7 @@ export const PART3 = [
     ]
   },
   {
-    id: 140,
+    id: 30,
     type: 'single-choice',
     question: 'Giải pháp: “Hoàn thiện thể chế kinh tế thị trường định hướng XHCN; đẩy mạnh CNH, HĐH gắn với bảo vệ tài nguyên, môi trường, ứng phó với biến đổi khí hậu để phát triển đất nước nhanh và bền vững” giữ vị trí như thế nào trong giải pháp phòng ngừa, ứng phó với các mối đe dọa từ các vấn đề ANPTT ở Việt Nam hiện nay?',
     answer: 'a',
