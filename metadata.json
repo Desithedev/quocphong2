@@ -1,0 +1,6 @@
+{
+  "name": "Trắc Nghiệm GDQPAN",
+  "description": "Học và hành với bộ đề cương trắc nghiệm Giáo Dục Quốc Phòng - An Ninh đầy đủ, cập nhật nhất với xáo trộn đề và đáp án.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
