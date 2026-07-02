@@ -1,12 +1,8 @@
 import { Question } from '../types';
-import { PART1 } from './questions_part1';
-import { PART2 } from './questions_part2';
 import { PART3 } from './questions_part3';
 import { PART4 } from './questions_part4';
 
 const rawQuestions = [
-  ...PART1,
-  ...PART2,
   ...PART3,
   ...PART4
 ];
